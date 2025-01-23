@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.users{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
+}
+.container{
+    width: calc(100% - 300px);
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.user{
+    width: 25%;
+    min-width: 180px;
+    height: 45%;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.name{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.name a{
+    text-decoration: none;
+}
+.name i{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone{
+    display: flex;
+}
+.phone i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.email{
+    display: flex;
+}
+.email p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
